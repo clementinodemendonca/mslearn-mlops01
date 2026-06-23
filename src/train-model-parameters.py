@@ -10,6 +10,7 @@ from sklearn.metrics import roc_auc_score
 from sklearn.metrics import roc_curve
 import matplotlib.pyplot as plt
 
+#documentaion needed
 def main(args):
     # read data
     df = get_data(args.training_data)
